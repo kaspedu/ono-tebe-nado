@@ -1,8 +1,8 @@
 .header {
-    padding: 94px 24px;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
+    padding: 94px 24px;
 }
 
 .menu__header {
@@ -14,31 +14,26 @@
 }
 
 .menu-item {
+    justify-content: center;
+    margin-left: 30px;
     font-size: 18px;
     line-height: 21.13px;
     text-transform: lowercase;
     list-style: circle;
-    margin-left: 30px;
-    justify-content: center;
 }
 
 .menu-item:first-child {
     list-style: none;
 }
 
-.header__logo {
-    width: 148px;
-    height: 105px;
-}
-
 .address {
-    max-width: 240px;
     display: block;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 1.35;
     justify-self: end;
+    max-width: 240px;
     margin-right: 20px;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 1.35;
 }
 
 .address__list {
@@ -46,12 +41,12 @@
 }
 
 .cover {
-    background-image: url(../images/cover.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     position: relative;
     padding: 165px 50px 52px 50px;
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .overlay {
@@ -63,10 +58,10 @@
 .cover__title {
     position: relative;
     z-index: 1;
-    text-transform: uppercase;
     color: #FFFFFF;
     font-size: 100px;
     letter-spacing: 30px;
+    text-transform: uppercase;
 }
 
 .letter-spacing-extended {
@@ -96,22 +91,22 @@
 }
 
 .cover__description {
-    margin-top: 125px;
-    display: flex;
-    justify-content: space-between;
     position: relative;
     z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 125px;
 }
 
 .description__text {
+    align-content: center;
+    margin-left: 30px;
     color: #FFF;
-    font-size: 22px;
     font-weight: 400;
+    font-size: 22px;
     line-height: 28px;
     text-transform: uppercase;
-    align-content: center;
     word-spacing: 18px;
-    margin-left: 30px;
 }
 
 .button {
@@ -121,9 +116,9 @@
 
 .button__name {
     color: #FFF;
-    text-align: center;
-    font-size: 22px;
     font-weight: 500;
+    font-size: 22px;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -132,30 +127,30 @@
 }
 
 .lots__heading {
+    margin-bottom: 27px;
+    margin-left: 40px;
     color: #000;
-    font-size: 40px;
     font-weight: 700;
+    font-size: 40px;
     line-height: normal;
     text-transform: uppercase;
-    margin-left: 40px;
-    margin-bottom: 27px;
 }
 
 .lots__card-list {
-    list-style: none;
     display: flex;
-    gap: 25px;
     flex-wrap: wrap;
+    gap: 25px;
+    list-style: none;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-sizing: border-box;
     width: 334px;
     height: 100%;
     padding: 51px 40px 48px 40px;
-    box-sizing: border-box;
 }
 
 .card-link {
@@ -163,66 +158,66 @@
 }
 
 .card_type_film {
+    position: relative;
     background-image: url(../images/card-lot-01.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
+    background-size: cover;
 }
 
 .card_type_book {
+    position: relative;
     background-image: url(../images/card-lot-02.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
+    background-size: cover;
 }
 
 .card_type_picture {
+    position: relative;
     background-image: url(../images/card-lot-03.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
+    background-size: cover;
 }
 
 .card__title {
-    color: #FFF;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 120%;
-    text-transform: uppercase;
     position: relative;
     z-index: 1;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
     text-decoration: underline #FFF;
+    text-transform: uppercase;
 }
 
 .card__text {
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 120%;
     position: relative;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
     text-decoration: none;
 }
 
 .lots__look-more-link {
+    margin-top: 30px;
+    margin-left: 40px;
     color: #000;
+    font-weight: 400;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
     text-transform: lowercase;
-    margin-left: 40px;
-    margin-top: 30px;
 }
 
 .about {
     display: grid;
     grid-template-columns: 311px 1fr;
     height: 595px;
+    margin: 0 24px 94px 24px;
     padding-top: 35px;
     padding-left: 47px;
-    margin: 0 24px 94px 24px;
 }
 
 .about__column {
@@ -231,14 +226,14 @@
 
 
 .black-ellipse-logo {
-    width: 240px;
-    height: 240px;
-    border-radius: 50%;
-    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 240px;
+    height: 240px;
     margin-top: 35px;
+    border-radius: 50%;
+    background-color: black;
 }
 
 .logo-white {
@@ -247,11 +242,11 @@
 }
 
 .about__title {
-    color: #000;
-    font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
     margin: 136px 0 100px 0;
+    color: #000;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
 .about__text {
@@ -259,16 +254,16 @@
     flex-direction: column;
     gap: 24px;
     color: #000;
-    font-size: 20px;
     font-weight: 400;
+    font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.2px;
 }
 
 .footer {
-    margin: 215px 50px 88px 50px;
     display: flex;
     justify-content: space-between;
+    margin: 215px 50px 88px 50px;
 }
 
 .footer__menu {
@@ -280,16 +275,16 @@
 }
 
 .footer__menu-link {
-    text-transform: lowercase;
     color: #000;
-    font-size: 18px;
     font-weight: 400;
+    font-size: 18px;
+    text-transform: lowercase;
 }
 
 .footer__social-list {
-    list-style: none;
     display: flex;
     gap: 48px;
+    list-style: none;
 }
 
 .footer__social-icon {
